@@ -1,5 +1,5 @@
-const stripe = Stripe("pk_test_TA_CLEF_PUBLIQUE"); // Remplace par ta clé publique
-const BACKEND_URL = "https://ton-backend.onrender.com"; // URL de ton serveur backend
+const stripe = Stripe("pk_test_51KG8egJNm8oISBQdvdw0NiE4XTwJSWykQqmGZMJBVIlSokL54tiKHnbnDlx0n40TcXnr4qKLzytS3ByXfuzyYl9c00toe80Tpt"); // Remplace par ta clé publique
+const BACKEND_URL = "https://trit.onrender.com"; // URL de ton serveur backend
 
 document.querySelectorAll(".checkout-button").forEach(button => {
     button.addEventListener("click", async () => {
